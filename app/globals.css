@@ -71,6 +71,47 @@
         "GT Walsheim Framer Medium", "Inter Variable", system-ui, sans-serif;
     --font-display-alt:
         "GT Walsheim Medium", "Inter Variable", system-ui, sans-serif;
+
+    --font-size-headline-display: 84px;
+    --font-size-headline-display--line-height: 101px;
+    --font-size-headline-display--letter-spacing: -4.2px;
+    --font-weight-headline-display: 500;
+
+    --font-size-headline-lg: 55px;
+    --font-size-headline-lg--line-height: 66px;
+    --font-size-headline-lg--letter-spacing: -1.8px;
+    --font-weight-headline-lg: 500;
+
+    --font-size-headline-md: 35px;
+    --font-size-headline-md--line-height: 42px;
+    --font-size-headline-md--letter-spacing: -0.18px;
+
+    --font-size-headline-sm: 23px;
+    --font-size-headline-sm--line-height: 28px;
+
+    --font-size-headline-xs: 18px;
+    --font-size-headline-xs--line-height: 24px;
+
+    --font-size-body-lg: 18px;
+    --font-size-body-lg--line-height: 28px;
+    --font-size-body-lg--letter-spacing: -0.01px;
+
+    --font-size-body-md: 15px;
+    --font-size-body-md--line-height: 23px;
+    --font-size-body-md--letter-spacing: -0.01px;
+
+    --font-size-body-sm: 13px;
+    --font-size-body-sm--line-height: 20px;
+    --font-size-body-sm--letter-spacing: -0.01px;
+
+    --font-size-label-lg: 16px;
+    --font-size-label-lg--line-height: 24px;
+
+    --font-size-label-md: 14px;
+    --font-size-label-md--line-height: 20px;
+
+    --font-size-label-sm: 12px;
+    --font-size-label-sm--line-height: 16px;
 }
 
 /* ──────────────────────────────────────────────
