@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import { ThemeProvider } from "@/app/components/ThemeProvider";
+import { siteConfig } from "@/lib/site";
 import "./globals.css";
 
 const inter = Inter({
@@ -8,7 +9,7 @@ const inter = Inter({
   subsets: ["latin"],
 });
 
-const siteUrl = "https://builvault.dev";
+const siteUrl = siteConfig.url;
 const siteName = "BuildVault";
 const defaultDescription =
   "BuildVault is a portfolio of carefully engineered systems — from cloud infrastructure to full-stack applications. Every project is built with precision, performance, and clean architecture in mind.";

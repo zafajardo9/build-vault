@@ -1,8 +1,9 @@
 import { getAllBlogPosts } from "@/lib/blogs";
+import { siteConfig } from "@/lib/site";
 import type { MetadataRoute } from "next";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = "https://builvault.dev";
+  const baseUrl = siteConfig.url;
 
   const staticRoutes: MetadataRoute.Sitemap = [
     {

@@ -17,7 +17,7 @@ export const siteConfig: SiteConfig = {
   tagline: "We build systems that scale.",
   description:
     "BuildVault is a portfolio of carefully engineered systems — from cloud infrastructure to full-stack applications. Every project is built with precision, performance, and clean architecture in mind.",
-  url: "https://builvault.dev",
+  url: "https://buildvault.live",
   ogImage: "/og.png",
   navLinks: [
     { label: "Systems", href: "/systems" },
